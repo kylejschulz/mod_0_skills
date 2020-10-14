@@ -1,0 +1,11 @@
+class Silverware
+
+type = [array]
+material = 'string'
+is_clean = boolean
+is_polished = boolean
+
+reshape- changes type value
+clean -toggles is_clean boolean
+display_material (displays the material)
+polish -toggles is_polished boolean
