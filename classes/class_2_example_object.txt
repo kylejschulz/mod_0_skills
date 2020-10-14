@@ -1,0 +1,17 @@
+John
+
+
+attributes:
+
+name: 'John'
+is_clocked_in: true
+role: ['server']
+current_salary(per week): 800
+
+
+methods:
+
+greet: 'Hi i'm #{name}, I'll be your server tonight.'
+promote: role = Manager and current_salary = 1000
+clock_out: is_clocked_in = false
+pay_employee: uses current_salary to pay john
