@@ -1,0 +1,12 @@
+food = 'baklava'
+is_delicious = true
+food = 'danish pastry'
+num2 = 75
+num7 = 3
+quotient = num7 / num2
+
+songs = ['i', 'said', 'certified', 'freak']
+
+songs.shift
+
+food.length
