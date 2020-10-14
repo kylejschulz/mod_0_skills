@@ -1,0 +1,16 @@
+Spoon
+
+attribues:
+
+type: ['spoon']
+material: 'sterling silver'
+is_clean:  false
+is_polished: false
+
+
+mathods:
+
+reshape: type = ['fork']
+display_material: material = 'sterling silver' (calls a function that prints the material to the console)
+clean: is_clean = true
+polish: is_polished = true
