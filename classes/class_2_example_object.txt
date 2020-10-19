@@ -5,13 +5,14 @@ attributes:
 
 name: 'John'
 is_clocked_in: true
-role: ['server']
-current_salary(per week): 800
+role: 'server'
+current_salary(per week): 800.00
+duties: ['bring your menu', 'take your order']
 
 
 methods:
 
-greet: 'Hi i'm #{name}, I'll be your server tonight.'
-promote: role = Manager and current_salary = 1000
-clock_out: is_clocked_in = false
-pay_employee: uses current_salary to pay john
+greet: 'Hi i'm #{name}, I'll be your server tonight. I'd be happy to #{duties[0]} and #{duties[1]}.''
+promote: role = Manager and current_salary = 1000.00, changes the roles array = ['manage employees', 'set the schedule']
+clock_out: if is_clocked_in = true, set is_clocked_in = false
+pay_employee: uses current_salary attribute to calculate john's pay
