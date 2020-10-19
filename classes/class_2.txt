@@ -3,15 +3,16 @@ Employee
 
 attributes:
 
-name: 'string'
+name: string
 is_clocked_in: boolean
-role: [array]
+role: string
 current_salary: float
+duties: array
 
 
 methods:
 
-greet: greets customers using name attribute
-promote: changes the value in role array
-clock_out: toggles the is_clocked_in boolean to false
+greet: greets customers using name attribute and duties
+promote: changes the value of the role attributes
+clock_out: if is_clocked_in is true, set is_clocked_in to false
 pay_employee: uses current_salary to calculate total pay
