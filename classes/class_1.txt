@@ -1,11 +1,17 @@
 class Silverware
 
-type = [array]
-material = 'string'
-is_clean = boolean
-is_polished = boolean
 
-reshape- changes type value
-clean -toggles is_clean boolean
-display_material (displays the material)
-polish -toggles is_polished boolean
+attributes:
+
+type: string
+material: string
+is_clean: boolean
+is_polished: boolean
+total_washes: integer
+
+methods:
+
+reshape: changes type value
+clean: If is_clean boolean is false it will change it to true and add 1 to total washes
+display_material: (prints the name of the material to the console)
+polish: if is_polished is false it will change it to true
