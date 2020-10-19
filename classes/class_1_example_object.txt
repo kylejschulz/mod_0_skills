@@ -2,15 +2,16 @@ Spoon
 
 attribues:
 
-type: ['spoon']
+silverware_type: 'spoon'
 material: 'sterling silver'
 is_clean:  false
 is_polished: false
+total_washes = 0
 
 
-mathods:
+methods:
 
-reshape: type = ['fork']
-display_material: material = 'sterling silver' (calls a function that prints the material to the console)
-clean: is_clean = true
-polish: is_polished = true
+re-shape: silverware_type = 'fork'
+display_material: material = 'sterling silver'
+clean: if is_clean is false, set is_clean = true, total_washes = 1
+polish: if is_polished is false, set is_polished = true
